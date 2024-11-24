@@ -1,0 +1,139 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d6c9c5;
+    color: #000;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.placeholder-logo1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 0.9rem;
+    color: #666;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.placeholder-logo2 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 0.9rem;
+    color: #666;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+.placeholder-logo1 p{
+    position: absolute;
+    top:43px;
+    left:10px;
+    font-size: 0.9rem;
+    color: #666;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0px 15px;
+}
+
+.placeholder-logo2 p{
+    position: absolute;
+    top:43px;
+    right: 20px;
+    font-size: 0.9rem;
+    color: #666;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0px 15px;
+}
+
+
+
+
+
+/* Content  */
+.content {
+    display: flex;
+    justify-content: space-between;
+    }
+
+.column {
+    float: left;
+}
+
+.left-column {
+    width: 25%;
+}
+
+.main-column {
+    width: 50%;
+    margin: 0 10px;
+}
+
+.right-column {
+    width: 20%;
+}
+
+/* Boxes */
+.box {
+    background: #fff;
+    border: 1px solid #000;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.box1 {
+    background: #fff;
+    border: 1px solid #000;
+    padding: 15px;
+    margin-bottom: 20px;
+    min-height: 80vh;
+}
+.box2{
+    background: #fff;
+    border: 1px solid #000;
+    padding: 15px;
+
+    min-height: 80vh;
+}
+
+
+
+.box h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Highlighted */
+.highlight-box {
+    background-color: yellow;
+    color: red;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #000;
+}

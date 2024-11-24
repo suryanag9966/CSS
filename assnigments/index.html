@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>BUY TICKETS TO THE WEB DEVELOPERS GALA</h1>
+        <P> TICKETS ARE $10 EACH. DINNER PACKAGES ARE AN EXTRA $5 ALL FILDS ARE REQUIED</P>
+   
+
+    <form>
+        <div class="section">
+            <h2>Tickets and Add-ons</h2>
+            <label for="tickets" class="heading">Number of Tickets<span class="hint">Limit 8</span>
+            <input type="number" id="tickets" name="tickets" max="8" required> </label>
+            <br/>
+            <br/>
+            <label for="dinner" class="heading">Dinner packegs<span class="hint">Serve 2</span></label>
+            <input type="number" id="dinner" name="dinner">
+        </div>
+        <div class="section" >
+            <h2>Payment</h2>
+            <label for="cc" class="heading1">credit card <span class="hint">No spaces or dashes, please</span> </label>
+            <input type="text" id="cc" name="cc" placeholder="32700000000008">
+            <br/>
+            <br/>
+            <label for="expirydate" class="heading1">Expriration date  <span class="hint">MM/YYYY</span></label>
+            <input type="text" id="expirydate" name="expirydate"placeholder="MM/YYYY" required>
+        </div>
+
+        <div class="section">
+            <h2>Billing Address</h2>
+            <label for="name" class="heading">Name <span class="hint"></span></label>
+            <br/>
+            <input type="text" id="name" name="name" placeholder="ex. John Q. Public">
+            <br/>
+            <br/>
+      
+            <label for="address" class="heading">Street Address <span class="hint"></span></label>
+            <br/>
+            <input type="text" id="address" name="address" placeholder="ex. 12345 Main Street, Apt 23" required>
+            <br/>
+            <br/>
+      
+            <label for="city" class="heading">City <span class="hint"></span></label>
+            <br/>
+            <input type="text" id="city" name="city" placeholder="ex. Anytown">
+            <br/>
+            <br/>
+            <label for="state" class="heading">State</label>
+            <br/>
+            <input type="text" id="state" name="state" maxlength="2" placeholder="ca" required>
+            <br/>
+            <br/>
+            <label for="pincode" class="heading">Pincode</label>
+            <br/>
+            <input type="text" id="pincode" name="pincode" placeholder="123456" required>
+          </div>
+          <button type="submit" class="btn">Buy Tickets!</button>
+
+    </form>
+    
+</div>
+    
+</body>
+</html>

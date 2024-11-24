@@ -1,0 +1,30 @@
+nav{
+    background-color: rgb(234, 183, 120);
+    padding: 20px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+li{
+    display: inline;
+}
+
+a{
+
+    color: rgb(255, 249, 249);
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+a:hover{
+    background-color: brown;
+    color: red;
+    padding: 10px;
+
+}

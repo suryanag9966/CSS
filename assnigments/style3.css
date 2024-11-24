@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container{
+    margin: 20px auto;
+    width: 80%;
+}
+
+.blocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:10px;
+    margin-bottom: 15px;
+}
+
+.block{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    }
+
+.blue{
+    background-color: blue;
+}
+.pink{
+    background-color: pink;
+}
+
+.reminder{
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+    background-color: palevioletred;
+    padding: 10px;
+    border: 1px solid red;
+}
+.details{
+    color: red;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.thankyou{
+    margin-top: 10px;
+    color: green;
+    font-weight: bold;
+}
+/* 
+.pink:hover +.reminder{
+    display: block;
+} */
+.blocks:has(.pink:hover) + .reminder {
+    display: block;
+}
